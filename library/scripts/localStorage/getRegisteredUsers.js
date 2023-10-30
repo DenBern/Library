@@ -1,0 +1,1 @@
+export const getRegisteredUsers = () => localStorage.getItem('usersCredits') ? true : false;
